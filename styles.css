@@ -17,9 +17,21 @@ body {
     padding: 0;
 }
 
-@media (max-width: 600px) {
-    /* Estilos para telas menores que 600px */
+@media (max-width: 768px) {
+    body {
+        background-image: url('sua-imagem-mobile.jpg'); /* Imagem específica para mobile, se necessário */
+        background-size: cover;
+        background-position: center;
+    }
 }
+
+@media (max-width: 768px) {
+    body {
+        background-size: cover; /* Ou contain, dependendo do efeito desejado */
+        min-height: 100vh; /* Garante que o fundo cubra a tela verticalmente */
+    }
+}
+
 
 
 .principal {
