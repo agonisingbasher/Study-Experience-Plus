@@ -1,0 +1,184 @@
+:root {
+    --Branco-Principal: #FFFFFF;
+    --Cinza-secundario: #c0c0cc;
+    --botao-azul: #008cff;
+    --cor-de-fundo: #2C2C2C;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--Branco-Principal);
+    font-size: 20;
+    border-bottom: 150px solid #333;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+    background-image: url(https://raw.githubusercontent.com/agonisingbasher/Study-Experience-Plus/refs/heads/main/nova_pasta/fundo-principal.gif);
+    /* Plano de Fundo tela 1 */
+    background-repeat: no-repeat;
+    background-size: cover; /* Agora a imagem cobrirá toda a área */
+    background-position: center; /* Centraliza a imagem */
+    margin: auto;
+}
+
+.container__segundario {
+    background-image: url(https://raw.githubusercontent.com/agonisingbasher/Study-Experience-Plus/refs/heads/main/nova_pasta/Fundo-dois.gif);
+    background-repeat: no-repeat;
+    background-size: cover; /* A imagem cobrirá toda a área */
+    background-position: center; /* Centraliza a imagem */
+    width: 100vw; /* 100% da largura da janela */
+    height: 100vh; /* 100% da altura da janela */
+    margin: 0; /* Remove qualquer margem que possa estar limitando o espaço */
+}
+
+.container__terceiro {
+    background-image: url(https://raw.githubusercontent.com/agonisingbasher/Study-Experience-Plus/refs/heads/main/nova_pasta/Fundo-tres.gif);
+    background-repeat: no-repeat;
+    background-size: cover; /* A imagem cobrirá toda a área */
+    background-position: center; /* Centraliza a imagem */
+    width: 100vw; /* 100% da largura da janela */
+    height: 100vh; /* 100% da altura da janela */
+    margin: 0; /* Remove qualquer margem que possa estar limitando o espaço */
+}
+
+.container__quarto {
+    background-image: url(https://raw.githubusercontent.com/agonisingbasher/Study-Experience-Plus/refs/heads/main/nova_pasta/Fundo-quarto.gif);
+    background-repeat: no-repeat;
+    background-size: cover; /* A imagem cobrirá toda a área */
+    background-position: center; /* Centraliza a imagem */
+    width: 100vw; /* 100% da largura da janela */
+    height: 100vh; /* 100% da altura da janela */
+    margin: 0; /* Remove qualquer margem que possa estar limitando o espaço */
+}
+
+/*-quinto*/
+.container__quinto {
+    background-image: url(https://raw.githubusercontent.com/agonisingbasher/Study-Experience-Plus/refs/heads/main/nova_pasta/Fundo.gif);
+    background-repeat: no-repeat;
+    background-size: cover; /* A imagem cobrirá toda a área */
+    background-position: center; /* Centraliza a imagem */
+    width: 100vw; /* 100% da largura da janela */
+    height: 100vh; /* 100% da altura da janela */
+    margin: 0; /* Remove qualquer margem que possa estar limitando o espaço */
+}
+
+.combo {
+    margin: 0; /* Margem entre os combos */
+    font-family: "Sofadi One", system-ui;
+    padding: 15px; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+h3 {
+    text-align: left; /* Alinha o título à esquerda */
+}
+
+p {
+    text-align: left; /* Alinha o texto dos parágrafos à esquerda */
+    margin: 5px 0; /* Margem vertical entre parágrafos */
+}
+
+/*----*/
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.segunda_imagem, .terceira_imagem {
+    max-width: 45%; /* Ajuste conforme necessário */
+}
+
+.container__botao {
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--Branco-Principal);
+    display: block;
+}
+
+.botao_secundario {
+    background-color: transparent;
+    border: 2px solid var(--Branco-Principal)
+}
+
+/*Fontes*/
+
+.principal {
+    font-family: "Sofadi One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    align-items: center;
+    text-align: center;
+}
+
+.container__botao {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.container__aviso {
+    font-size: 12px;
+    color: var(--Cinza-secundario);
+}
+
+.container__titulo {
+    font-family: "Merriweather", serif;
+    font-size: 28px;
+    font-weight: 700;
+}
+.container__titulo2 {
+    font-family: "Merriweather", serif;
+    font-size: 28px;
+    text-align: center;
+}
+
+
+/*margem*/
+.container__imagem {
+    margin: 1em 0 2em 0;
+}
+
+.container__caixa {
+    margin: 0 6em;
+}
+
+.container__descricao {
+    font-family: "Sofadi One", system-ui;
+    margin: 0 10em;
+    text-align: right;
+}
+
+.container__seta1 {
+    position: absolute;
+    bottom: 20px; /* Sobe 20 pixels */
+    left: 40px;   /* Move 40 pixels para a direita */
+    z-index: 1000; /* Garante que a imagem fique acima de outros elementos */
+}
+
+
+.container__seta2 {
+    position: absolute;
+    bottom: 0;
+    /* Alinha ao fundo do contêiner pai */
+    left: 0;
+    /* Alinha ao lado esquerdo do contêiner pai */
+    z-index: 1000;
+    /* Garante que a imagem fique acima de outros elementos */
+}
+
+/*imagem*/
+
+.segunda_imagem{
+    border-image: auto;
+}
