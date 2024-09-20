@@ -17,23 +17,6 @@ body {
     padding: 0;
 }
 
-@media (max-width: 768px) {
-    body {
-        background-image: url('sua-imagem-mobile.jpg'); /* Imagem específica para mobile, se necessário */
-        background-size: cover;
-        background-position: center;
-    }
-}
-
-@media (max-width: 768px) {
-    body {
-        background-size: cover; /* Ou contain, dependendo do efeito desejado */
-        min-height: 100vh; /* Garante que o fundo cubra a tela verticalmente */
-    }
-}
-
-
-
 .principal {
     background-image: url(https://raw.githubusercontent.com/agonisingbasher/Study-Experience-Plus/refs/heads/main/nova_pasta/fundo-principal.gif);
     /* Plano de Fundo tela 1 */
@@ -82,6 +65,94 @@ body {
     width: 100vw; /* 100% da largura da janela */
     height: 100vh; /* 100% da altura da janela */
     margin: 0; /* Remove qualquer margem que possa estar limitando o espaço */
+}
+/* Media queries para dispositivos móveis */
+@media (max-width: 768px) {
+
+    /* Ajustes para títulos */
+    .container__titulo {
+        font-size: 22px; /* Reduz o tamanho da fonte para mobile */
+        text-align: center; /* Centraliza o texto no celular */
+        margin: 0 1em; /* Ajusta a margem para dar mais espaço */
+    }
+
+    .container__titulo2 {
+        font-size: 22px; /* Reduz o tamanho da fonte para o segundo título */
+        text-align: center; /* Mantém centralizado */
+        margin: 0 1em; /* Ajusta as margens para mobile */
+    }
+
+    /* Aviso menor em telas menores */
+    .container__aviso {
+        font-size: 10px; /* Diminui o tamanho do texto */
+        text-align: center; /* Centraliza o aviso */
+        margin: 0 1em; /* Margens mais ajustadas */
+    }
+
+    /* Botão secundário */
+    .botao_secundario {
+        font-size: 14px; /* Reduz o tamanho da fonte do botão */
+        padding: 10px; /* Reduz o padding para mobile */
+        width: 80%; /* Ajusta a largura para mobile */
+        margin: 10px auto; /* Centraliza e dá margem no mobile */
+    }
+
+    /* Ajustes de layout da caixa */
+    .container__caixa {
+        margin: 0 2em; /* Ajusta as margens para mobile */
+        padding: 0.5em; /* Dá mais espaço interno */
+    }
+
+    /* Descrição */
+    .container__descricao {
+        font-size: 16px; /* Diminui o tamanho da fonte para facilitar a leitura no celular */
+        text-align: left; /* Mantém o alinhamento à esquerda */
+        margin: 0 1em; /* Margens menores */
+    }
+
+    /* Setas de navegação */
+    .container__seta1 {
+        bottom: 10px; /* Ajusta a posição mais para cima */
+        left: 10px; /* Alinha a seta mais à esquerda */
+        width: 30px; /* Diminui o tamanho da seta */
+    }
+
+    .container__seta2 {
+        bottom: 10px; /* Ajusta a posição da seta para cima */
+        left: 10px; /* Alinha à esquerda */
+        width: 30px; /* Diminui o tamanho da seta */
+    }
+
+    /* Ajuste de background para mobile */
+    .principal {
+        background-image: url('https://raw.githubusercontent.com/agonisingbasher/Study-Experience-Plus/refs/heads/main/nova_pasta/fundo-principal-mobile.jpg');
+        background-size: contain; /* Ajusta para conter a imagem no viewport mobile */
+        background-position: center;
+    }
+
+    .container__segundario {
+        background-image: url('https://raw.githubusercontent.com/agonisingbasher/Study-Experience-Plus/refs/heads/main/nova_pasta/Fundo-dois-mobile.jpg');
+        background-size: contain; /* Ajusta o tamanho para caber na tela vertical */
+        background-position: center;
+    }
+
+    .container__terceiro {
+        background-image: url('https://raw.githubusercontent.com/agonisingbasher/Study-Experience-Plus/refs/heads/main/nova_pasta/Fundo-tres-mobile.jpg');
+        background-size: contain;
+        background-position: center;
+    }
+
+    .container__quarto {
+        background-image: url('https://raw.githubusercontent.com/agonisingbasher/Study-Experience-Plus/refs/heads/main/nova_pasta/Fundo-quarto-mobile.jpg');
+        background-size: contain;
+        background-position: center;
+    }
+
+    .container__quinto {
+        background-image: url('https://raw.githubusercontent.com/agonisingbasher/Study-Experience-Plus/refs/heads/main/nova_pasta/Fundo-mobile.jpg');
+        background-size: contain;
+        background-position: center;
+    }
 }
 
 .combo {
