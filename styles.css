@@ -8,7 +8,6 @@
 body {
     background-color: var(--cor-de-fundo);
     color: var(--Branco-Principal);
-    font-size: 20;
     border-bottom: 150px solid #333;
 }
 
@@ -21,50 +20,72 @@ body {
     background-image: url(https://raw.githubusercontent.com/agonisingbasher/Study-Experience-Plus/refs/heads/main/Img/fundo-principal.gif);
     /* Plano de Fundo tela 1 */
     background-repeat: no-repeat;
-    background-size: cover; /* Agora a imagem cobrirá toda a área */
-    background-position: center; /* Centraliza a imagem */
+    background-size: cover;
+    /* Agora a imagem cobrirá toda a área */
+    background-position: center;
+    /* Centraliza a imagem */
     margin: auto;
 }
 
 .container__segundario {
     background-image: url(https://raw.githubusercontent.com/agonisingbasher/Study-Experience-Plus/refs/heads/main/Img/Fundo-dois.gif);
     background-repeat: no-repeat;
-    background-size: cover; /* A imagem cobrirá toda a área */
-    background-position: center; /* Centraliza a imagem */
-    width: 100vw; /* 100% da largura da janela */
-    height: 100vh; /* 100% da altura da janela */
-    margin: 0; /* Remove qualquer margem que possa estar limitando o espaço */
+    background-size: cover;
+    /* A imagem cobrirá toda a área */
+    background-position: center;
+    /* Centraliza a imagem */
+    width: 100vw;
+    /* 100% da largura da janela */
+    height: 100vh;
+    /* 100% da altura da janela */
+    margin: 0;
+    /* Remove qualquer margem que possa estar limitando o espaço */
 }
 
 .container__terceiro {
     background-image: url(https://raw.githubusercontent.com/agonisingbasher/Study-Experience-Plus/refs/heads/main/Img/Fundo-tres.gif);
     background-repeat: no-repeat;
-    background-size: cover; /* A imagem cobrirá toda a área */
-    background-position: center; /* Centraliza a imagem */
-    width: 100vw; /* 100% da largura da janela */
-    height: 100vh; /* 100% da altura da janela */
-    margin: 0; /* Remove qualquer margem que possa estar limitando o espaço */
+    background-size: cover;
+    /* A imagem cobrirá toda a área */
+    background-position: center;
+    /* Centraliza a imagem */
+    width: 100vw;
+    /* 100% da largura da janela */
+    height: 100vh;
+    /* 100% da altura da janela */
+    margin: 0;
+    /* Remove qualquer margem que possa estar limitando o espaço */
 }
 
 .container__quarto {
     background-image: url(https://raw.githubusercontent.com/agonisingbasher/Study-Experience-Plus/refs/heads/main/Img/Fundo-quarto.gif);
     background-repeat: no-repeat;
-    background-size: cover; /* A imagem cobrirá toda a área */
-    background-position: center; /* Centraliza a imagem */
-    width: 100vw; /* 100% da largura da janela */
-    height: 100vh; /* 100% da altura da janela */
-    margin: 0; /* Remove qualquer margem que possa estar limitando o espaço */
+    background-size: cover;
+    /* A imagem cobrirá toda a área */
+    background-position: center;
+    /* Centraliza a imagem */
+    width: 100vw;
+    /* 100% da largura da janela */
+    height: 100vh;
+    /* 100% da altura da janela */
+    margin: 0;
+    /* Remove qualquer margem que possa estar limitando o espaço */
 }
 
 /*-quinto*/
 .container__quinto {
     background-image: url(https://raw.githubusercontent.com/agonisingbasher/Study-Experience-Plus/refs/heads/main/Img/Fundo.gif);
     background-repeat: no-repeat;
-    background-size: cover; /* A imagem cobrirá toda a área */
-    background-position: center; /* Centraliza a imagem */
-    width: 100vw; /* 100% da largura da janela */
-    height: 100vh; /* 100% da altura da janela */
-    margin: 0; /* Remove qualquer margem que possa estar limitando o espaço */
+    background-size: cover;
+    /* A imagem cobrirá toda a área */
+    background-position: center;
+    /* Centraliza a imagem */
+    width: 100vw;
+    /* 100% da largura da janela */
+    height: 100vh;
+    /* 100% da altura da janela */
+    margin: 0;
+    /* Remove qualquer margem que possa estar limitando o espaço */
 }
 
 /* Media queries para dispositivos móveis */
@@ -72,75 +93,102 @@ body {
 
     /* Ajustes para títulos */
     .container__titulo {
-        font-size: 22px; /* Reduz o tamanho da fonte para mobile */
-        text-align: center; /* Centraliza o texto no celular */
-        margin: 0 1em; /* Ajusta a margem para dar mais espaço */
+        font-size: 22px;
+        /* Reduz o tamanho da fonte para mobile */
+        text-align: center;
+        /* Centraliza o texto no celular */
+        margin: 0 1em;
+        /* Ajusta a margem para dar mais espaço */
     }
 
     .container__titulo2 {
-        font-size: 22px; /* Reduz o tamanho da fonte para o segundo título */
-        text-align: center; /* Mantém centralizado */
-        margin: 0 1em; /* Ajusta as margens para mobile */
+        font-size: 22px;
+        /* Reduz o tamanho da fonte para o segundo título */
+        text-align: center;
+        /* Mantém centralizado */
+        margin: 0 1em;
+        /* Ajusta as margens para mobile */
         padding: 80px;
     }
 
     /* Aviso menor em telas menores */
     .container__aviso {
-        font-size: 10px; /* Diminui o tamanho do texto */
-        text-align: center; /* Centraliza o aviso */
-        margin: 0 1em; /* Margens mais ajustadas */
+        font-size: 10px;
+        /* Diminui o tamanho do texto */
+        text-align: center;
+        /* Centraliza o aviso */
+        margin: 0 1em;
+        /* Margens mais ajustadas */
     }
 
     /* Botão secundário */
     .botao_secundario {
-        font-size: 14px; /* Reduz o tamanho da fonte do botão */
-        padding: 10px; /* Reduz o padding para mobile */
-        width: 80%; /* Ajusta a largura para mobile */
-        margin: 10px auto; /* Centraliza e dá margem no mobile */
+        font-size: 14px;
+        /* Reduz o tamanho da fonte do botão */
+        padding: 10px;
+        /* Reduz o padding para mobile */
+        width: 80%;
+        /* Ajusta a largura para mobile */
+        margin: 10px auto;
+        /* Centraliza e dá margem no mobile */
     }
 
     /* Ajustes de layout da caixa */
     .container__caixa {
-        margin: 0 2em; /* Ajusta as margens para mobile */
-        padding: 0.5em; /* Dá mais espaço interno */
+        margin: 0 2em;
+        /* Ajusta as margens para mobile */
+        padding: 0.5em;
+        /* Dá mais espaço interno */
     }
 
     /* Descrição */
     .container__descricao {
-        font-size: 15px; /* Diminui o tamanho da fonte para facilitar a leitura no celular */
-        text-align: center; /* Mantém o alinhamento à esquerda */
-        margin: 0 1em auto; /* Margens menores */
+        font-size: 15px;
+        /* Diminui o tamanho da fonte para facilitar a leitura no celular */
+        text-align: center;
+        /* Mantém o alinhamento à esquerda */
+        margin: 0 1em auto;
+        /* Margens menores */
         padding: 40px auto;
     }
 
     /* Setas de navegação */
     .container__seta1 {
-        bottom: 10px; /* Ajusta a posição mais para cima */
-        left: 10px; /* Alinha a seta mais à esquerda */
-        width: 30px; /* Diminui o tamanho da seta */
+        bottom: 10px;
+        /* Ajusta a posição mais para cima */
+        left: 10px;
+        /* Alinha a seta mais à esquerda */
+        width: 30px;
+        /* Diminui o tamanho da seta */
     }
 
     .container__seta2 {
-        bottom: 10px; /* Ajusta a posição da seta para cima */
-        left: 10px; /* Alinha à esquerda */
-        width: 30px; /* Diminui o tamanho da seta */
+        bottom: 10px;
+        /* Ajusta a posição da seta para cima */
+        left: 10px;
+        /* Alinha à esquerda */
+        width: 30px;
+        /* Diminui o tamanho da seta */
     }
 
     .combo {
-        margin: 50px auto; /* 50px em cima e embaixo, auto para centralizar horizontalmente */
+        margin: 50px auto;
+        /* 50px em cima e embaixo, auto para centralizar horizontalmente */
     }
-    
+
     /* Ajuste de background para mobile */
 
     .principal {
         background-image: url('https://raw.githubusercontent.com/agonisingbasher/Study-Experience-Plus/refs/heads/main/Img/img-mobile/fundo-primario-mobile.gif');
-        background-size: contain; /* Ajusta para conter a imagem no viewport mobile */
+        background-size: contain;
+        /* Ajusta para conter a imagem no viewport mobile */
         background-position: center;
     }
 
     .container__segundario {
         background-image: url('https://i.postimg.cc/BvqxysPH/fundo-2-mobile.gif');
-        background-size: contain; /* Ajusta o tamanho para caber na tela vertical */
+        background-size: contain;
+        /* Ajusta o tamanho para caber na tela vertical */
         background-position: center;
     }
 
@@ -163,21 +211,345 @@ body {
     }
 }
 
+/* Telas pequenas - 360x640 px */
+@media (max-width: 360px) and (min-height: 640px) {
+
+    .container__titulo,
+    .container__titulo2 {
+        font-size: 9px;
+        /* Ajuste de tamanho */
+        margin: 5px 0.5em;
+        /* Mais espaço nas margens */
+        padding: 30px;
+    }
+
+    .container__imagem {
+        height: auto;
+        width: 70px;
+    }
+
+    .container__aviso {
+        font-size: 9px;
+        text-align: center;
+    }
+
+    .container__botao {
+        font-size: 7px;
+    }
+
+    .botao_secundario {
+        font-size: 7px;
+        padding: 10px;
+        width: 90%;
+    }
+
+    .container__caixa {
+        margin: 0 1em;
+        padding: 0.4em;
+    }
+
+    .container__descricao {
+        font-size: 5px;
+        /* Ajuste para melhor leitura */
+        padding: 20px 0;
+        /* Espaçamento ajustado */
+    }
+
+    .combo {
+        margin: 30px auto;
+        /* Ajuste de margens */
+        font-size: 5px;
+    }
+
+    .container__seta1,
+    .container__seta2 {
+        width: 25px;
+        /* Ajuste no tamanho */
+        bottom: 5px;
+        left: 5px;
+    }
+}
+
+
+
+/* Telas médias - 375x667 px */
+@media (max-width: 375px) and (min-height: 667px) {
+    .container__titulo {
+        font-size: 10px;
+        margin: 10px 1em;
+    }
+
+    .container__botao {
+        font-size: 7px;
+    }
+
+    .container__titulo2 {
+        font-size: 10px;
+        margin: 10px 1em;
+        padding: 20px;
+    }
+
+    .container__imagem {
+        height: auto;
+        width: 70px;
+    }
+
+    .container__aviso {
+        font-size: 9px;
+        text-align: center;
+    }
+
+    .botao_secundario {
+        font-size: 7px;
+        padding: 10px;
+        width: 90%;
+    }
+
+    .container__caixa {
+        margin: 0 1.5em;
+        padding: 0.5em;
+    }
+
+    .container__descricao {
+        font-size: 5px;
+        padding: 25px 0;
+    }
+
+    .combo {
+        font-size: 6px;
+    }
+
+    .container__seta1,
+    .container__seta2 {
+        width: 28px;
+        bottom: 8px;
+        left: 8px;
+    }
+}
+
+@media (max-width: 390px) and (min-height: 844px) {
+    .container__titulo {
+        font-size: 10px;
+        margin: 10px 1em;
+    }
+
+    .container__botao {
+        font-size: 7px;
+    }
+
+    .container__titulo2 {
+        font-size: 10px;
+        margin: 10px 1em;
+        padding: 50px;
+    }
+
+    .container__imagem {
+        height: auto;
+        width: 70px;
+    }
+
+    .container__aviso {
+        font-size: 9px;
+        text-align: center;
+    }
+
+    .botao_secundario {
+        font-size: 7px;
+        padding: 10px;
+        width: 90%;
+    }
+
+    .container__caixa {
+        margin: 0 1.5em;
+        padding: 0.5em;
+    }
+
+    .container__descricao {
+        font-size: 10px;
+        padding: 25px 0;
+    }
+
+    .combo {
+        font-size: 6px;
+    }
+
+    .container__seta1,
+    .container__seta2 {
+        width: 28px;
+        bottom: 8px;
+        left: 8px;
+    }
+}
+
+/* Telas médias - 414x896 px */
+@media (max-width: 414px) and (min-height: 896px) {
+
+    .container__titulo {
+        font-size: 10px;
+    }
+
+    .container__imagem {
+        height: auto;
+        width: 50px;
+    }
+
+    .container__botao {
+        font-size: 10px;
+    }
+
+    .container__seta1 {
+        bottom: 100px;
+    }
+
+    .container__titulo2 {
+        font-size: 12px;
+        padding: 90px;
+    }
+
+    .container__descricao {
+        font-size: 8px;
+    }
+
+    .combo {
+        font-size: 6px;
+    }
+}
+
+/* Telas médias - 414x896 px */
+@media (max-width: 430px) and (min-height: 932px) {
+
+    .container__titulo {
+        font-size: 10px;
+    }
+
+    .container__imagem {
+        height: auto;
+        width: 50px;
+    }
+
+    .container__botao {
+        font-size: 10px;
+    }
+
+    .container__seta1 {
+        bottom: 100px;
+    }
+
+    .container__titulo2 {
+        font-size: 12px;
+        padding: 90px;
+    }
+
+    .container__descricao {
+        font-size: 8px;
+    }
+
+    .combo {
+        font-size: 6px;
+    }
+}
+
+/* Telas médias - 414x896 px */
+@media (max-width: 768px) and (min-height: 1024px) {
+
+    .container__titulo {
+        font-size: 20px;
+    }
+
+    .container__imagem {
+        height: auto;
+        width: 100px;
+    }
+
+    .container__botao {
+        font-size: 10px;
+    }
+
+    .container__seta1 {
+        bottom: 100px;
+    }
+
+    .container__titulo2 {
+        font-size: 12px;
+        padding: 90px;
+    }
+
+    .container__descricao {
+        font-size: 8px;
+    }
+
+    .combo {
+        font-size: 6px;
+    }
+}
+
+/* Telas médias - 414x896 px */
+@media (max-width: 820px) and (min-height: 1180px) {
+
+    .container__titulo {
+        font-size: 30px;
+    }
+
+    .container__imagem {
+        height: auto;
+        width: 150px;
+    }
+
+    .container__botao {
+        font-size: 10px;
+    }
+
+    .container__seta1 {
+        bottom: 100px;
+    }
+
+    .container__titulo2 {
+        font-size: 33px;
+        padding: 50px;
+    }
+
+    .container__descricao {
+        font-size: 20px;
+    }
+
+    .combo {
+        font-size: 10px;
+        margin: 10px;
+        right: auto;
+    }
+}
+
+/* Telas médias - 1280x800 px */
+@media (max-width: 1280px) and (min-height: 800px) {}
+
+/* Telas médias - 1366x768 px */
+@media (max-width: 1366px) and (min-height: 768px) {}
+
+/* Telas altas - 360x780 px */
+@media (max-width: 360px) and (min-height: 780px) {}
+
 .combo {
-    margin: 0; /* Margem entre os combos */
+    margin: 0;
+    /* Margem entre os combos */
     font-family: "Sofadi One", system-ui;
-    padding: 15px; /* Espaçamento interno */
-    border-radius: 5px; /* Bordas arredondadas */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 15px;
+    /* Espaçamento interno */
+    border-radius: 5px;
+    /* Bordas arredondadas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Sombra suave */
 }
 
 h3 {
-    text-align: left; /* Alinha o título à esquerda */
+    text-align: left;
+    /* Alinha o título à esquerda */
 }
 
 p {
-    text-align: left; /* Alinha o texto dos parágrafos à esquerda */
-    margin: 5px 0; /* Margem vertical entre parágrafos */
+    text-align: left;
+    /* Alinha o texto dos parágrafos à esquerda */
+    margin: 5px 0;
+    /* Margem vertical entre parágrafos */
 }
 
 /*----*/
@@ -220,18 +592,17 @@ p {
 }
 
 .container__aviso {
-    font-size: 12px;
     color: var(--Cinza-secundario);
 }
 
 .container__titulo {
     font-family: "Merriweather", serif;
-    font-size: 28px;
+    font-size: auto;
     font-weight: 700;
 }
+
 .container__titulo2 {
     font-family: "Merriweather", serif;
-    font-size: 28px;
     text-align: center;
 }
 
@@ -247,16 +618,16 @@ p {
 
 .container__descricao {
     font-family: "Sofadi One", system-ui;
-    margin: 0 10em;
-    padding: 15px;
     text-align: center;
 }
 
 .container__seta1 {
     position: absolute;
-    bottom: 20px; /* Sobe 20 pixels */
-    left: 40px;   /* Move 40 pixels para a direita */
-    z-index: 1000; /* Garante que a imagem fique acima de outros elementos */
+    /* Sobe 20 pixels */
+    left: 40px;
+    /* Move 40 pixels para a direita */
+    z-index: 1000;
+    /* Garante que a imagem fique acima de outros elementos */
 }
 
 
@@ -272,6 +643,6 @@ p {
 
 /*imagem*/
 
-.segunda_imagem{
+.segunda_imagem {
     border-image: auto;
 }
