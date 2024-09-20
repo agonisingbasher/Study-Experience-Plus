@@ -66,6 +66,7 @@ body {
     height: 100vh; /* 100% da altura da janela */
     margin: 0; /* Remove qualquer margem que possa estar limitando o espaço */
 }
+
 /* Media queries para dispositivos móveis */
 @media (max-width: 1080px) {
 
@@ -79,7 +80,8 @@ body {
     .container__titulo2 {
         font-size: 22px; /* Reduz o tamanho da fonte para o segundo título */
         text-align: center; /* Mantém centralizado */
-        margin: 50px 1em; /* Ajusta as margens para mobile */
+        margin: 0 1em; /* Ajusta as margens para mobile */
+        padding: 80px;
     }
 
     /* Aviso menor em telas menores */
@@ -105,9 +107,10 @@ body {
 
     /* Descrição */
     .container__descricao {
-        font-size: 16px; /* Diminui o tamanho da fonte para facilitar a leitura no celular */
-        text-align: left; /* Mantém o alinhamento à esquerda */
-        margin: 0 1em; /* Margens menores */
+        font-size: 15px; /* Diminui o tamanho da fonte para facilitar a leitura no celular */
+        text-align: center; /* Mantém o alinhamento à esquerda */
+        margin: 0 1em auto; /* Margens menores */
+        padding: 40px auto;
     }
 
     /* Setas de navegação */
@@ -123,6 +126,10 @@ body {
         width: 30px; /* Diminui o tamanho da seta */
     }
 
+    .combo {
+        margin: 50px auto; /* 50px em cima e embaixo, auto para centralizar horizontalmente */
+    }
+    
     /* Ajuste de background para mobile */
 
     .principal {
@@ -241,7 +248,8 @@ p {
 .container__descricao {
     font-family: "Sofadi One", system-ui;
     margin: 0 10em;
-    text-align: right;
+    padding: 15px;
+    text-align: center;
 }
 
 .container__seta1 {
