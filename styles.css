@@ -17,6 +17,11 @@ body {
     padding: 0;
 }
 
+@media (max-width: 600px) {
+    /* Estilos para telas menores que 600px */
+}
+
+
 .principal {
     background-image: url(https://raw.githubusercontent.com/agonisingbasher/Study-Experience-Plus/refs/heads/main/nova_pasta/fundo-principal.gif);
     /* Plano de Fundo tela 1 */
