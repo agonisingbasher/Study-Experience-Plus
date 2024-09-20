@@ -18,7 +18,7 @@ body {
 }
 
 .principal {
-    background-image: url(https://raw.githubusercontent.com/agonisingbasher/Study-Experience-Plus/refs/heads/main/nova_pasta/fundo-principal.gif);
+    background-image: url(https://raw.githubusercontent.com/agonisingbasher/Study-Experience-Plus/refs/heads/main/Img/fundo-principal.gif);
     /* Plano de Fundo tela 1 */
     background-repeat: no-repeat;
     background-size: cover; /* Agora a imagem cobrirá toda a área */
@@ -27,7 +27,7 @@ body {
 }
 
 .container__segundario {
-    background-image: url(https://raw.githubusercontent.com/agonisingbasher/Study-Experience-Plus/refs/heads/main/nova_pasta/Fundo-dois.gif);
+    background-image: url(https://raw.githubusercontent.com/agonisingbasher/Study-Experience-Plus/refs/heads/main/Img/Fundo-dois.gif);
     background-repeat: no-repeat;
     background-size: cover; /* A imagem cobrirá toda a área */
     background-position: center; /* Centraliza a imagem */
@@ -37,7 +37,7 @@ body {
 }
 
 .container__terceiro {
-    background-image: url(https://raw.githubusercontent.com/agonisingbasher/Study-Experience-Plus/refs/heads/main/nova_pasta/Fundo-tres.gif);
+    background-image: url(https://raw.githubusercontent.com/agonisingbasher/Study-Experience-Plus/refs/heads/main/Img/Fundo-tres.gif);
     background-repeat: no-repeat;
     background-size: cover; /* A imagem cobrirá toda a área */
     background-position: center; /* Centraliza a imagem */
@@ -47,7 +47,7 @@ body {
 }
 
 .container__quarto {
-    background-image: url(https://raw.githubusercontent.com/agonisingbasher/Study-Experience-Plus/refs/heads/main/nova_pasta/Fundo-quarto.gif);
+    background-image: url(https://raw.githubusercontent.com/agonisingbasher/Study-Experience-Plus/refs/heads/main/Img/Fundo-quarto.gif);
     background-repeat: no-repeat;
     background-size: cover; /* A imagem cobrirá toda a área */
     background-position: center; /* Centraliza a imagem */
@@ -58,7 +58,7 @@ body {
 
 /*-quinto*/
 .container__quinto {
-    background-image: url(https://raw.githubusercontent.com/agonisingbasher/Study-Experience-Plus/refs/heads/main/nova_pasta/Fundo.gif);
+    background-image: url(https://raw.githubusercontent.com/agonisingbasher/Study-Experience-Plus/refs/heads/main/Img/Fundo.gif);
     background-repeat: no-repeat;
     background-size: cover; /* A imagem cobrirá toda a área */
     background-position: center; /* Centraliza a imagem */
@@ -125,31 +125,31 @@ body {
 
     /* Ajuste de background para mobile */
     .principal {
-        background-image: url('https://raw.githubusercontent.com/agonisingbasher/Study-Experience-Plus/refs/heads/main/nova_pasta/fundo-principal-mobile.jpg');
+        background-image: url('https://raw.githubusercontent.com/agonisingbasher/Study-Experience-Plus/refs/heads/main/Img/img-mobile/fundo-primario-mobile.gif');
         background-size: contain; /* Ajusta para conter a imagem no viewport mobile */
         background-position: center;
     }
 
     .container__segundario {
-        background-image: url('https://raw.githubusercontent.com/agonisingbasher/Study-Experience-Plus/refs/heads/main/nova_pasta/Fundo-dois-mobile.jpg');
+        background-image: url('Img/img-mobile/fundo-2-mobile.gif');
         background-size: contain; /* Ajusta o tamanho para caber na tela vertical */
         background-position: center;
     }
 
     .container__terceiro {
-        background-image: url('https://raw.githubusercontent.com/agonisingbasher/Study-Experience-Plus/refs/heads/main/nova_pasta/Fundo-tres-mobile.jpg');
+        background-image: url('Img/img-mobile/fundo-3-mobile.gif');
         background-size: contain;
         background-position: center;
     }
 
     .container__quarto {
-        background-image: url('https://raw.githubusercontent.com/agonisingbasher/Study-Experience-Plus/refs/heads/main/nova_pasta/Fundo-quarto-mobile.jpg');
+        background-image: url('Img/img-mobile/fundo-4-mobile.gif');
         background-size: contain;
         background-position: center;
     }
 
     .container__quinto {
-        background-image: url('https://raw.githubusercontent.com/agonisingbasher/Study-Experience-Plus/refs/heads/main/nova_pasta/Fundo-mobile.jpg');
+        background-image: url('Img/img-mobile/fundo-mobile.gif');
         background-size: contain;
         background-position: center;
     }
