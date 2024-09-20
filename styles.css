@@ -67,7 +67,7 @@ body {
     margin: 0; /* Remove qualquer margem que possa estar limitando o espaço */
 }
 /* Media queries para dispositivos móveis */
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
 
     /* Ajustes para títulos */
     .container__titulo {
@@ -124,6 +124,7 @@ body {
     }
 
     /* Ajuste de background para mobile */
+
     .principal {
         background-image: url('https://raw.githubusercontent.com/agonisingbasher/Study-Experience-Plus/refs/heads/main/Img/img-mobile/fundo-primario-mobile.gif');
         background-size: contain; /* Ajusta para conter a imagem no viewport mobile */
@@ -131,25 +132,25 @@ body {
     }
 
     .container__segundario {
-        background-image: url('Img/img-mobile/fundo-2-mobile.gif');
+        background-image: url('https://raw.githubusercontent.com/agonisingbasher/Study-Experience-Plus/refs/heads/main/Img/img-mobile/fundo-2-mobile.gif');
         background-size: contain; /* Ajusta o tamanho para caber na tela vertical */
         background-position: center;
     }
 
     .container__terceiro {
-        background-image: url('Img/img-mobile/fundo-3-mobile.gif');
+        background-image: url('https://raw.githubusercontent.com/agonisingbasher/Study-Experience-Plus/refs/heads/main/Img/img-mobile/fundo-3-mobile.gif');
         background-size: contain;
         background-position: center;
     }
 
     .container__quarto {
-        background-image: url('Img/img-mobile/fundo-4-mobile.gif');
+        background-image: url('https://i.postimg.cc/d1NmrX1d/fundo-4-mobile.gif');
         background-size: contain;
         background-position: center;
     }
 
     .container__quinto {
-        background-image: url('Img/img-mobile/fundo-mobile.gif');
+        background-image: url('https://raw.githubusercontent.com/agonisingbasher/Study-Experience-Plus/bc7c7b23a0cb925ae91473c3ba3b0dec7f317bc7/Img/img-mobile/fundo-mobile.gif');
         background-size: contain;
         background-position: center;
     }
