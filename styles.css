@@ -79,7 +79,7 @@ body {
     .container__titulo2 {
         font-size: 22px; /* Reduz o tamanho da fonte para o segundo título */
         text-align: center; /* Mantém centralizado */
-        margin: 20px 1em; /* Ajusta as margens para mobile */
+        margin: 50px 1em; /* Ajusta as margens para mobile */
     }
 
     /* Aviso menor em telas menores */
